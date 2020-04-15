@@ -9,6 +9,11 @@ from keras.models import Sequential
 from keras.layers import Dense
 #modulo do keras para as rotinas de pre-processamento
 from keras.utils import np_utils
+#modulo do pyplot
+import matplotlib.pyplot as plt
+# numpy
+import numpy as np
+
 
 #divido entre treino e teste
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
